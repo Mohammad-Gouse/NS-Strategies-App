@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategy App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="toggle-buttons">
+            <button class="toggle-btn active" data-view="Bullish">Bullish</button>
+            <button class="toggle-btn" data-view="Bearish">Bearish</button>
+            <button class="toggle-btn" data-view="RangeBound">RangeBound</button>
+            <button class="toggle-btn" data-view="Volatile">Volatile</button>
+        </div>
+        <div class="date-dropdown">
+            <div id="dateDefault">
+            </div>
+            <div id="dateSelect">
+            </div>
+        </div>
+        <div class="strategy-cards">
+            <!-- Strategy cards will be rendered here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
